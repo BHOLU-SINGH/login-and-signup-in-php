@@ -77,7 +77,7 @@
         }
     ?>
 
-    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="jquery-3.6.0.min.js"></script>
     <script>
         $(document).ready(function(){
             $("#signup-link").click(function(){
