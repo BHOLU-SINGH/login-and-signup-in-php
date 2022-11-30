@@ -54,11 +54,13 @@
             
             // if query is successful
             if($rs){
-                echo "user registered successfully";
+                ?><script> alert('user registered successfully');  </script> <?php
+                // echo "user registered successfully";
             }
             // if query is failed 
             else {
-                echo "user registration failed";
+                ?><script> alert('user registration failed');  </script> <?php
+                // echo "user registration failed";
             }
         } else if(isset($_POST['signin_btn'])){
             $email = $_POST['email'];
@@ -68,12 +70,10 @@
             $rs = mysqli_query($conn, $sql);
 
             if($rs){
-                echo "user login successful";
+                ?><script> alert('user login success!');</script> <?php
             } else{
-                echo "user registration failed";
+                ?><script> alert('user login failed!');  </script> <?php
             }
-        } else{
-            echo "Something went wrong, Try again!";
         }
     ?>
 
