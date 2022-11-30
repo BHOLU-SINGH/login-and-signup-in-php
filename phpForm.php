@@ -7,6 +7,7 @@
     <title>Simple PHP Form with Database Connectivity | Free Projects1</title>
     <meta name="keywords" content="sign up php, login and signup in php, user registration with email verification in php, login and signup page in php, php sign up ,signup form in php, login signup php, php sign up and login, user registration form in php, user registration in php, signup and login form in php, php signup and login code, user registration form with php, php signup form with database, signup page in php, login and signup form using php, signup form using php, login signup php, sign up php, sign up form php, sign up php, php user registration form with mysql, signup php, sign up page php, user registration and login in php, freeprojects1 blog, bholu singh blogger">
     <meta name="description" content="This is a PHP project that maintains connectivity with a database. In this project, we will store and retrieve user data in the form of a PHP database.">
+    <link rel="shortcut icon" href="https://github.com/BHOLU-SINGH/source-code/raw/master/favicon.png" type="image/x-icon">
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 </head>
